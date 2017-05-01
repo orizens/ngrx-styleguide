@@ -56,7 +56,8 @@ It should include:
         - user-profile
 ```
 
-## Reducers should have its own directory
+## Reducers
+### Reducers should have its own directory
 **DO** place each reducer in its own directory.  
 **Why?**: it's easier to locate it.  
 **Why?**: other related files will be placed in the same directory (actions, spec, selectors, etc...).  
@@ -70,7 +71,6 @@ It should include:
         - player
         - user-profile
 ```
-## Reducers
 ### Reducers Included Files
 **DO** create separated files in the reducer's directory for: reducer, reducer's spec, reducer's actions and reducer's selectors. Finally, use **index.ts** as a barrel for exporting each file's content.  
 **Why?** it's easier when developing to locate each relevant class/file
