@@ -121,7 +121,7 @@ const UPDATE_FILTER = '[PlayerSearch] UPDATE_FILTER';
 const ADD_RESULTS = '[PlayerSearch] ADD_RESULTS';
 ```
 
-### naming naming actions for side effects
+### naming actions for side effects
 **DO** name actions with **suffix** that indicate **start** or **end** of async operation.  
 **DO** name actions with suffixes which indicate start or end of async operation.  
 **Why?**: it's easier to maintain and understand.  
@@ -162,7 +162,7 @@ export class PlayerSearchActions {
 // use ActionsCreatorFactory at: 
 // ~ npm i ngrx-action-creator-factory
 // allows type check for the payload when used
-export updateFilter = ActionCreatorFactory.create<string>(ActionTypes.UPDATE_FILTER);
+export const updateFilter = ActionCreatorFactory.create<string>(ActionTypes.UPDATE_FILTER);
 ```
 Copyright (c) [Oren Farhi](http://orizens.com)
 
