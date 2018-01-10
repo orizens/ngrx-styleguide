@@ -7,7 +7,7 @@ The purpose of this style guide is to provide guidance on how to integrate ngrx-
 [Introduction Blog Post]()
 
 ## Projects Following The Styleguide
-- [Echoes Player (Angular version)](http://github.com/orizens/echoes-player) 
+- [Echoes Player](http://github.com/orizens/echoes-player) 
 
 Please open an issue to add your project/suggestion
 
