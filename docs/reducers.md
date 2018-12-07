@@ -36,8 +36,8 @@
 ```
 ### Reducer "barrel" with "index.ts"
 **DO** create an "index.ts" barrel for exporing reducer's files/class
-**Why?** it's easier to import any of the relevant reducer's entities through the reducer's directory path.
-**Why?** shorter path leads to less verbose path. 
+**Why?** it's easier to import any of the relevant reducer's entities through the reducer's directory path.  
+**Why?** shorter path leads to less verbose path.  
 
 ```typescript
 export * from './app-player.reducer';
